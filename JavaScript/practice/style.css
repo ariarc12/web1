@@ -28,10 +28,10 @@ h1 {
     display:block;
   }
   #grid ol{
-    border-right:none;
+    border:none;
   }
   h1{
-    border-right:none;
+    border:none;
   }
 
 }
