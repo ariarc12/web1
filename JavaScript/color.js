@@ -13,7 +13,7 @@ var Body = {
   setColor:function (color){
     document.querySelector('body').style.color = color;
   },
-  setBackgroundColor:function BodySetBackgroundColor(color){
+  setBackgroundColor:function(color){
     document.querySelector('body').style.backgroundColor = color;
   }
 }
