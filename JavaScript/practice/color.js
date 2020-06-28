@@ -9,28 +9,28 @@ var Body = {
 
   var Link = {
     setColor:function(color){
-      var alist = document.querySelectorAll('a')
+      var alist = document.querySelectorAll('a');
       var i=0;
       while(i<alist.length){
         alist[i].style.color=color;
-        i+=1
+        i+=1;
       }
     }
   }
 
   function Button(self){
     if(self.value === 'night'){
-    Body.setColor('white');
-    Body.setBackgroundColor('black');
-    self.value = 'day';
+      Body.setColor('white');
+      Body.setBackgroundColor('black');
+      self.value = 'day';
 
-    Link.setColor('powderblue');
-  }else{
-    Body.setColor('black');
-    Body.setBackgroundColor('white');
-    self.value = 'night';
+      Link.setColor('powderblue');
+    }else{
+      Body.setColor('black');
+      Body.setBackgroundColor('white');
+      self.value = 'night';
 
-    Link.setColor('blue');
-  }
+      Link.setColor('blue');
+    }
   
   }
